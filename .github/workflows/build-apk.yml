@@ -22,10 +22,6 @@ jobs:
         with:
           distribution: temurin
           java-version: '17'
-      - name: Install Android platform
-        run: |
-          yes | sdkmanager --licenses
-          sdkmanager --install "platforms;android-35" "build-tools;35.0.0"
       - name: Set up Gradle
         run: |
           curl -fsSL https://services.gradle.org/distributions/gradle-8.11.1-bin.zip -o /tmp/gradle.zip
