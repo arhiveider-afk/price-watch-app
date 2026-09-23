@@ -1,0 +1,7 @@
+data/
+.server.log
+.server.error.log
+tools/
+android-app/.gradle/
+android-app/app/build/
+*.apk
